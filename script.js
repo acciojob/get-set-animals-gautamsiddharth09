@@ -32,15 +32,6 @@ class Cat extends Animal {
   }
 }
 
-// Example usage
-const myCat = new Cat("Siamese");
-myCat.makeSound(); // The Siamese makes a sound
-myCat.purr();      // purr
-
-const myDog = new Dog("Golden Retriever");
-myDog.makeSound(); // The Golden Retriever makes a sound
-myDog.bark();      // woof
-
 // Do not change the code below
 window.Animal = Animal;
 window.Dog = Dog;
