@@ -9,7 +9,7 @@ class Animal {
 	}
 
 	makeSound() {
-		console.log(`The ${species} make a sound`)
+		console.log(`The ${this.species} make a sound`)
 	}
 }
 
@@ -27,12 +27,30 @@ class Cat extends Animal {
 	constructor(species){
 		super(species)
 	}
-	pour(){
-		console.log("pourt")
+	pourr(){
+		console.log("pourr")
 	}
 }
+
+const myCat = new Cat("Siamese");
+myCat.makeSound();
 
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
 window.Cat = Cat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
